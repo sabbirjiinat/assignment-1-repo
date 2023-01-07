@@ -1,23 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
 
-.header{
+.header {
     background-image: url(../images/banner/banner2.png);
     height: 700px;
     /* background-repeat:no-repeat;
     background-size:cover */
-    
-}
-.right-section{
 
-  
 }
 
-.header-title{
+.right-section {}
+
+.header-title {
     position: absolute;
     left: 800px;
     top: 250px;
@@ -25,27 +24,200 @@
     height: 140px;
     text-align: right;
     font-size: 34px;
+    font-weight: 900;
+
+}
+
+.header-para {
+    position: relative;
+    left: 800px;
+    top: 400px;
+    width: 255px;
+    /* height: 140px; */
+    text-align: right;
+    font-size: 12px;
+    color: #444343
+}
+
+.header-btn {
+    position: absolute;
+    left: 965px;
+    top: 482px;
+    color: #FFFFFF;
+    background-color: #F15B22;
+    padding: 13px 12px;
+    border: none;
+}
+
+.header-btn:hover {
+    background-color: crimson;
+    border-radius: 5px;
+
+}
+
+
+/* second section */
+.about {
+    width: 70%;
+    margin: auto;
+    gap: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.failures-title {
+    width: 288px;
+    height: 94px;
+    font-size: 35px;
+    font-weight: 700;
+    margin: auto;
+    margin-bottom: 15px;
+
+
+}
+
+.failures-first-para {
+    margin-bottom: 10px;
+    width: 416px;
+    height: 104px;
+    margin: auto;
+    font-size: 13px;
+    color: #444343
+}
+
+
+
+/* My plans section. */
+
+.my-plan-title {
+    width: fit-content;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+
+.my-plans {
+
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+
+}
+
+.my-plans-item h3 {
     font-weight: 700;
 
 }
 
-.header-para{
-    position: absolute;
-    left: 800px;
-    top: 400px;
-    width: 255px;
-    height: 140px;
-    text-align: right;
-    font-size: 14px;
-   
+.my-plans-item p {
+    font-size: 15px;
+    color: #444343
 }
 
-.header-btn{
+
+
+
+
+
+
+
+
+
+
+.footer {
     position: absolute;
-    left: 980px;
-    top: 548px;
-    color: #FFFFFF;
-    background-color:#FD6E0A;
-        
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+
+
+.left-footer {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    left: 150px;
+    top: 80px;
+
+}
+
+.left-footer h4{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.left-footer p{
+    font-size: 12px;
+
+}
+
+.left-footer .footer-para{
+    margin-bottom: 10px;
+}
+
+.left-footer .footer-gmail{
+    margin-bottom: 10px;
+}
+
+.left-footer .footer-number{
+    margin-bottom: 10px;
+}
+
+.left-footer img{
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+
+.right-footer {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 556px;
+    top: 80px;
+
+}
+
+.right-footer h4 {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.right-footer input {
+    margin-bottom: 20px;
+    padding: 6px 8px;
+    background-color: black;
+    color: white;
+    border: 0.5px solid wheat;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.footer-btn {
+    padding: 8px 10px;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+
+.footer-btn:hover {
+    background-color: white;
+    color: black;
 
 }
